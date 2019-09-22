@@ -39,7 +39,7 @@ function StoreCard({
           <div className="ml-auto">
             <Button color="primary">
               <Icon prefix="fe" name="plus" />
-              Add to cart
+              Get Started
             </Button>
           </div>
         </div>
