@@ -1,7 +1,7 @@
 //@flow
 const strings = {
   title: "Login to your Account",
-  buttonText: "Login",
+  buttonText: "Login Now",
   emailLabel: "Email Address",
   emailPlaceholder: "Enter email",
   passwordLabel: "Password",
