@@ -47,7 +47,7 @@ function LoginPage(props: Props): React.Node {
   } = props;
 
   return (
-    <StandaloneFormPage imageURL={"./demo/logo.svg"}>
+    <StandaloneFormPage>
       <FormCard
         buttonText={strings.buttonText || defaultStrings.buttonText}
         title={strings.title || defaultStrings.title}
