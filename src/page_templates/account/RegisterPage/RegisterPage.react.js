@@ -99,6 +99,20 @@ function RegisterPage(props: Props): React.Node {
           value={values && values.password}
           error={errors && errors.password}
         />
+
+        <FormTextInput
+          name="c_password"
+          type="password"
+          label={strings.passwordLabel || defaultStrings.passwordLabel}
+          placeholder={
+            strings.passwordPlaceholder || defaultStrings.passwordPlaceholder
+          }
+          onChange={onChange}
+          onBlur={onBlur}
+          value={values && values.password}
+          error={errors && errors.password}
+        />
+
         <FormCheckboxInput
           onChange={onChange}
           onBlur={onBlur}

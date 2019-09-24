@@ -8,7 +8,7 @@ const strings = {
   emailPlaceholder: "Enter email",
   passwordLabel: "Password",
   passwordPlaceholder: "Password",
-  termsLabel: "Agree to the terms and policy",
+  termsLabel: " Agree to the terms and policy",
 };
 
 export default strings;
