@@ -112,21 +112,13 @@ function RegisterPage(props: Props): React.Node {
           value={values && values.password}
           error={errors && errors.password}
         />
-
-        <FormCheckboxInput
-          onChange={onChange}
-          onBlur={onBlur}
-          value={values && values.terms}
-          name="terms"
-          label={strings.termsLabel || defaultStrings.termsLabel}
-        />
       </FormCard>
     </StandaloneFormPage>
   );
 }
 
 const RegisterPageWithTouchedErrors: React.ComponentType<Props> = withTouchedErrors(
-  ["name", "email", "password", "terms"]
+  ["name", "email", "password", "c_password"]
 )(RegisterPage);
 
 export default RegisterPageWithTouchedErrors;

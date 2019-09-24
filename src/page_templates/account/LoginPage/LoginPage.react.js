@@ -78,6 +78,14 @@ function LoginPage(props: Props): React.Node {
           value={values && values.password}
           error={errors && errors.password}
         />
+
+        <br />
+        <a
+        href="/forgot-password"
+        >
+        forgot password
+        </a>
+        <br />
       </FormCard>
     </StandaloneFormPage>
   );
