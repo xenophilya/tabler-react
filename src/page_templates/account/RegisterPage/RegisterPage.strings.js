@@ -8,6 +8,8 @@ const strings = {
   emailPlaceholder: "Enter email",
   passwordLabel: "Password",
   passwordPlaceholder: "Password",
+  ConfimpasswordLabel: "Confirm Password",
+  ConfimpasswordPlaceholder: "Confirm Password",
   termsLabel: " Agree to the terms and policy",
 };
 

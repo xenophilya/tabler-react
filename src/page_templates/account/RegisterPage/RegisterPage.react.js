@@ -103,9 +103,9 @@ function RegisterPage(props: Props): React.Node {
         <FormTextInput
           name="c_password"
           type="password"
-          label={strings.passwordLabel || defaultStrings.passwordLabel}
+          label={strings.ConfimpasswordLabel|| defaultStrings.passwordLabel}
           placeholder={
-            strings.passwordPlaceholder || defaultStrings.passwordPlaceholder
+            strings.ConfimpasswordPlaceholder || defaultStrings.passwordPlaceholder
           }
           onChange={onChange}
           onBlur={onBlur}
