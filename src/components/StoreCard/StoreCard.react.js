@@ -13,6 +13,8 @@ type Props = {|
   +subtitle?: string,
   +imgUrl?: string,
   +imgAlt?: string,
+  +buttonUrl?: string,
+  +buttonTitle?: string,
 |};
 
 function StoreCard({
@@ -22,6 +24,8 @@ function StoreCard({
   price,
   imgUrl,
   imgAlt,
+  buttonUrl,
+  buttonTitle,
 }: Props): React.Node {
   return (
     <Card>
@@ -37,9 +41,11 @@ function StoreCard({
             <strong>{price}</strong>
           </div>
           <div className="ml-auto">
-            <Button color="primary">
-              <Icon prefix="fe" name="plus" />
-              Get Started
+            <Button 
+            color="primary"
+            to={buttonUrl}
+            >
+              {buttonTitle}
             </Button>
           </div>
         </div>
